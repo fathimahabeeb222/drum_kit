@@ -20,7 +20,7 @@ document.addEventListener("keydown",function (event)
 function common(value)
 {
     switch (value) {
-        case "w":
+        case w :
             var crash= new Audio('crash.mp3');
             crash.play();
             break;
